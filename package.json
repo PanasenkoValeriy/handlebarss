@@ -1,28 +1,31 @@
 {
-  "name": "parcel-template",
+  "name": "handlebarss",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://PanasenkoValeriy.github.io/parcel-template",
+  "homepage": "https://PanasenkoValeriy.github.io/handlebarss",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-template/"
+    "build": "parcel build src/*.html --public-url /handlebarss/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PanasenkoValeriy/parcel-template.git"
+    "url": "git+https://github.com/PanasenkoValeriy/handlebarss.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PanasenkoValeriy/parcel-template/issues"
+    "url": "https://github.com/PanasenkoValeriy/handlebarss/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "handlebars": "^4.7.8",
+    "modern-normalize": "^1.1.0",
+    "parcel-transformer-hbs": "^1.0.4"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
     "parcel": "^2.6.0",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
